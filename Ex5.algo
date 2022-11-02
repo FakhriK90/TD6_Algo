@@ -1,0 +1,9 @@
+ALGORITHM Décalage
+VAR
+    a,x,i:INTEGER
+    t: TAB
+BEGIN
+    FOR i FROM 1 TO x DO
+        a <- t[i+1] - t[i]
+    END_FOR
+END

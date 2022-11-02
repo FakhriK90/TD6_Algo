@@ -1,0 +1,20 @@
+ALGORITHM Minimum des éléments d'un tableau
+VAR
+    t: TAB[1..n]
+    i,min: INTEGER
+BEGIN
+    FUNCTION Minimum(m,t1) : INTEGER
+    VAR
+        mini,j:INTEGER
+    BEGIN
+    mini <- t1[1]
+        FOR j FROM 2 TO m  DO
+            IF (max1>j) THEN
+                mini <-j
+            END_IF
+        END_FOR
+        RETURN mini ;
+    END
+    min <- Minimum(t[i]);
+    Write("Le minimum est :", min)
+END

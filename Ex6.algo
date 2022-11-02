@@ -1,0 +1,20 @@
+ALGORITHM Produit matrice carrée
+VAR
+    m1,m2,m3: TAB
+    i,j,k,n,: INTEGER
+BEGIN
+    FUNCTION Prod(M,N) : TAB
+    VAR
+        x:TAB
+    BEGIN
+        FOR i FROM 1 TO n DO
+        FOR j FROM 1 TO n DO
+            x[i][j] <- 0
+        END_FOR
+            x[i][j] <- x[i][j] + M[i][k]*N[j][k]
+        END_FOR
+        RETURN x ;
+    END
+    m3 <- Prod(m1,m3)
+    Write("le produit est: ",m3)
+END

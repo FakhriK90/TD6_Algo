@@ -1,0 +1,15 @@
+ALGORITHM Tableau trié
+VAR
+    t: Tab[1..n]
+    min,max,i: INTEGER
+BEGIN
+    min <- t[1]
+    max <- t[1]
+    FOR i FROM 2 TO n DO
+        IF (min <= t[i] Or max >= t[i]) THEN
+            Write("Le tableau est trié")
+        ELSE
+            Write("Le tableau n'est pas trié")
+        END_IF
+    END_FOR
+END

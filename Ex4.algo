@@ -1,0 +1,19 @@
+ALGORITHM Occurence
+VAR
+    a,t,n,occ: INTEGER
+BEGIN
+    Wtite("Taper un nombre a:")
+    Read(a)
+    FUNCTION occurence(t1,m) : INTEGER
+    VAR
+        oc,j:INTEGER
+    BEGIN
+        oc <- 0
+        FOR j FROM 1 TO m  DO
+            oc <- oc +j
+          
+        END_FOR
+        RETURN oc ;
+    END
+    occ <- occurence(t,a)
+END

@@ -1,0 +1,19 @@
+ALGORITHM Myenne éléments tableau
+VAR
+    t: Tab[1..n]
+    n,s,moy,i: INTEGER
+BEGIN
+    Write("Entrer le nbre des éléments du tableau")
+    Read(n)
+        FOR i FROM 1 TO n   DO
+        ("Enter la valeur de l'élément de l'indice")
+        Read(n)
+    END_FOR
+    Write("Tableau", t[i])
+    s <- 0
+    FOR i FROM 1 TO n STEP step  DO
+        s <- s + t[i]
+        moy <- s/i
+    END_FOR
+    Write("La moyenne est :", moy)
+END
