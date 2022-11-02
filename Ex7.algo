@@ -1,0 +1,13 @@
+ALGORITHM Diagonale
+VAR
+    t: Tab[1..N]
+    N,i,j:INTEGER
+BEGIN
+    FOR i FROM 1 TO N DO
+        FOR j FROM 1 TO N DO
+            IF (i=j) THEN
+                t[i][j] == 0
+            END_IF
+        END_FOR
+    END_FOR
+END
